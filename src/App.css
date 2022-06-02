@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+/***********************/
+/****    GENERAL    ****/
+/***********************/
+
+html {
+  font-size: 1vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
+html, body, input, button {
+  font-family: 'heebo',"Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: 400;
+}
+
+a.inherit, Link.inherit {
+  color: inherit;
+}
+
+a.undecoration, Link.undecoration {
+  text-decoration: none;
+}
+
+/****  Navbar  ****/
+.navbar-component {
+  position: fixed;
+  right: 10vw;
+  top: 1.8vw;
+}
+
+.navbar-component .nav-container {
+  color: #e9d5da;
+  font-size: 1.25vw;
+  font-weight: 700;
+}
+
+.navbar-component .nav-container a {
+  margin-left: 1.8vw;
+}
+
+/***  Nav Hover  ***/
+.nav-container a {
+  background-image: linear-gradient(
+    to right,
+    #E2C2B9,
+    #E2C2B9 50%,
+    #E9D5DA 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-container a:before {
+  content: '';
+  background: #E2C2B9;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-container a:hover {
+ background-position: 0;
+}
+
+.nav-container a:hover::before{
+  width: 100%;
+}
+
+
+/***********************/
+/****     HEAD      ****/
+/***********************/
+.head-component {
+  background-image: url('./img/head-bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background: linear-gradient(to bottom right,#363062, #827397);
+  width: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.head-component .title {
+  color: #fff;
+  padding-top: 12vw;
+  padding-left: 9vw;
+  color: #E9D5DA;
 }
 
-@keyframes App-logo-spin {
+.head-component .title h1 {
+  padding: 0;
+  margin-bottom: 4vw;
+  font-size: 5vw;
+}
+
+.head-component .title h2 {
+  padding: 0;
+  font-size: 3vw;
+}
+
+
+/****   Typing Effect   ****/
+.wrapper {
+  height: 8vh;
+  display: grid;
+  place-items: left;
+}
+
+.typing-demo {
+  width: 21ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 3em;
+}
+
+@keyframes typing {
   from {
-    transform: rotate(0deg);
+    width: 0
   }
-  to {
-    transform: rotate(360deg);
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
+}
+
+/****  Arrow down animation  ****/
+.down-arrow {
+  position: absolute;
+  top: 48%;
+  right: 5%;
+  width: 0;
+  height: 4vw;
+  border: 2px solid;
+  border-radius: 2px;
+  color: #e9d5da;
+  background-color: #e9d5da;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 3vw;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.down-arrow {
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.arrow-text {
+  position: absolute;
+  top: 16vw;
+  right: 1.5vw;
+  transform: rotate(90deg);
+  color: #e9d5da;
+  font-size: 1.4vw;
+}
+
+
+/***********************/
+/****     About     ****/
+/***********************/
+.about-component {
+  background-color: #E9D5DA;
+  color: #4D4C7D;
+  height: 100vh;
+}
+
+.about-component p {
+  margin-top: 0;
 }

@@ -5,7 +5,7 @@ import Page from './components/Page';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
         <Route path="/" element={<Page />} />
       </Routes>

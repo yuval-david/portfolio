@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1,
+        "name": "All-in Aparatments",
+        "credit": "",
+        "pre_img": "allin.jpg",
+        "pre_video": "allin-video.mp4",
+        "web_link": "http://allin-apartments.com/",
+        "github": "https://github.com/yuval-david/allin-apartments",
+        "tools": [
+            {
+                "tool": "Html",
+                "icon": "html-icon.png"
+            },
+            {
+                "tool": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "tool": "JS",
+                "icon": "js.png"
+            },
+            {
+                "tool": "JQuery",
+                "icon": "jquery.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Iynger Yoga",
+        "credit": "Design by Elevate digital studio",
+        "pre_img": "yoga.jpg",
+        "pre_video": "yoga-video.mp4",
+        "web_link": "https://www.iyengar-yoga.co.il/",
+        "github": "",
+        "tools": [
+            {
+                "tool": "Html",
+                "icon": "html-icon.png"
+            },
+            {
+                "tool": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "tool": "JS",
+                "icon": "js.png"
+            },
+            {
+                "tool": "JQuery",
+                "icon": "jquery.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "K.C Beauty",
+        "credit": "",
+        "pre_img": "kc-beauty.png",
+        "pre_video": "kc-video.mp4",
+        "web_link": "https://yuval-david.github.io/K.C-Beauty/",
+        "github": "https://github.com/yuval-david/K.C-Beauty",
+        "tools": [
+            {
+                "tool": "React",
+                "icon": "react-icon.png"
+            },
+            {
+                "tool": "Html",
+                "icon": "html-icon.png"
+            },
+            {
+                "tool": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "tool": "JS",
+                "icon": "js.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Vacations",
+        "credit": "",
+        "pre_img": "vacations.jpg",
+        "pre_video": "vacations.mp4",
+        "web_link": "",
+        "github": "https://github.com/yuval-david/Vacations-website",
+        "tools": [
+            {
+                "tool": "Html",
+                "icon": "html-icon.png"
+            },
+            {
+                "tool": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "tool": "JS",
+                "icon": "js.png"
+            },
+            {
+                "tool": "React",
+                "icon": "react-icon.png"
+            },
+            {
+                "tool": "Node",
+                "icon": "node.png"
+            },
+            {
+                "tool": "MySQL",
+                "icon": "mysql.png"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Chat app",
+        "credit": "",
+        "pre_img": "chat.jpg",
+        "pre_video": "chat-video.mp4",
+        "web_link": "",
+        "github": "https://github.com/yuval-david/chat",
+        "tools": [
+            {
+                "tool": "Html",
+                "icon": "html-icon.png"
+            },
+            {
+                "tool": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "tool": "JS",
+                "icon": "js.png"
+            },
+            {
+                "tool": "React",
+                "icon": "react-icon.png"
+            },
+            {
+                "tool": "Node",
+                "icon": "node.png"
+            },
+            {
+                "tool": "Socket.io",
+                "icon": "socket-io.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Supermarket",
+        "credit": "",
+        "pre_img": "supermarket.jpg",
+        "pre_video": "super.mp4",
+        "web_link": "",
+        "github": "https://github.com/yuval-david/Supermarket",
+        "tools": [
+            {
+                "tool": "Html",
+                "icon": "html-icon.png"
+            },
+            {
+                "tool": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "tool": "JS",
+                "icon": "js.png"
+            },
+            {
+                "tool": "Angular",
+                "icon": "angular-icon.png"
+            },
+            {
+                "tool": "Node",
+                "icon": "node.png"
+            },
+            {
+                "tool": "MySQL",
+                "icon": "mysql.png"
+            }
+        ]
+    }
+]

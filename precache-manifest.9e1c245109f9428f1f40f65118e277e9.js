@@ -92,12 +92,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/yuval.29945216.jpg"
   },
   {
-    "revision": "0734aff79a8af321fb865c9ac2ef3e64",
-    "url": "/portfolio/static/media/UbuntuMono-B.0734aff7.ttf"
-  },
-  {
     "revision": "ace87566a523960287b20a3f9c064cb9",
     "url": "/portfolio/static/media/FFFFORWA.ace87566.TTF"
+  },
+  {
+    "revision": "0734aff79a8af321fb865c9ac2ef3e64",
+    "url": "/portfolio/static/media/UbuntuMono-B.0734aff7.ttf"
   },
   {
     "revision": "2292827f4aee8916ebdc860c02520790",

@@ -893,6 +893,10 @@ a.undecoration, Link.undecoration {
     width: 79vw;
   }
 
+  .Tilt-inner {
+    width: 90%;
+  }
+
   .wrapper {
     height: 2.7vh;
   }

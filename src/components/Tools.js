@@ -1,17 +1,10 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
+import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
-
-// Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/effect-coverflow";
-// import "swiper/css/pagination";
 import 'swiper/swiper.min.css'
 import "swiper/swiper-bundle.min.css";
 
 // import required modules
-import { EffectCoverflow, Pagination, Autoplay } from "swiper";
+import { EffectCoverflow, Autoplay } from "swiper";
 
 export default function Tools() {
     return (
@@ -40,31 +33,31 @@ export default function Tools() {
             }}
         >
             <SwiperSlide>
-                <img src={require("../img/tools/html-icon.png")} />
+                <img src={require("../img/tools/html-icon.png")} alt="html" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/css.png")} />
+                <img src={require("../img/tools/css.png")} alt="CSS" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/js.png")} />
+                <img src={require("../img/tools/js.png")} alt="JS" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/jquery.png")} />
+                <img src={require("../img/tools/jquery.png")} alt="Jquery" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/react-icon.png")} />
+                <img src={require("../img/tools/react-icon.png")} alt="react" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/node.png")} />
+                <img src={require("../img/tools/node.png")} alt="node" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/mysql.png")} />
+                <img src={require("../img/tools/mysql.png")} alt="mysql" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/angular-icon.png")} />
+                <img src={require("../img/tools/angular-icon.png")} alt="angular" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={require("../img/tools/github-w.png")} />
+                <img src={require("../img/tools/github-w.png")} alt="github" />
             </SwiperSlide>
         </Swiper>
 

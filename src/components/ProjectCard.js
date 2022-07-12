@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
 
     return (
         <div className="project-card-component">
-            <img src={require('../img/' + img_name)} />
+            <img src={require('../img/' + img_name)} alt="project" />
             <div className='project-title'>
                 <h3>{project_name}</h3>
                 <button>Read more </button>
@@ -21,7 +21,7 @@ export default function ProjectCard(props) {
                             props.tools.map((tool) => {
                                 return (
                                     <div className='tool-icon' key={tool.tool}>
-                                        <img src={require('../img/tools/' + tool.icon)} />
+                                        <img src={require('../img/tools/' + tool.icon)} alt={tool.tool} />
                                     </div>
                                 );
                             })
@@ -30,8 +30,8 @@ export default function ProjectCard(props) {
                     </div>
                 </div>
                 <div className='links'>
-                    {props.git ? <a href={props.git} target="_blank"><img className='github-icon' src={require('../img/guthub.png')} /> Github</a> : ""}
-                    {props.link ? <a href={props.link} target="_blank"><img className='link-icon' src={require('../img/link.png')} />Visit Website</a> : ""}
+                    {props.git ? <a href={props.git} target="_blank" rel="noopener noreferrer"><img className='github-icon' alt="github-icon" src={require('../img/guthub.png')} /> Github</a> : ""}
+                    {props.link ? <a href={props.link} target="_blank" rel="noopener noreferrer"><img className='link-icon' alt='link-icon' src={require('../img/link.png')} />Visit Website</a> : ""}
                 </div>
             </div>
 

@@ -1,9 +1,7 @@
 import React from 'react';
 import { useEffect } from "react";
-import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
 import { Navigation, Pagination } from 'swiper';
-// import 'swiper/css';
 import 'swiper/swiper.min.css'
 import "swiper/swiper-bundle.min.css";
 import ProjectCard from './ProjectCard';
@@ -42,7 +40,7 @@ export default function Projects() {
 
         closePopups.forEach((btn, index) => {
             btn.addEventListener('click', () => {
-                console.log(index);
+                //console.log(index);
                 projectsPopups[index].classList.remove("show");
                 projectsPopupsWrrapers[index].classList.remove("show");
             });
@@ -60,8 +58,8 @@ export default function Projects() {
                         modules={[Navigation, Pagination]}
 
                         navigation
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
+                        //onSlideChange={() => console.log('slide change')}
+                        //onSwiper={(swiper) => console.log(swiper)}
 
                         breakpoints={
                             {
@@ -109,7 +107,7 @@ export default function Projects() {
                                                         project.tools.map((tool) => {
                                                             return (
                                                                 <div className='tool-icon' key={tool.tool}>
-                                                                    <img src={require('../img/tools/' + tool.icon)} />
+                                                                    <img src={require('../img/tools/' + tool.icon)} alt={tool.tool} />
                                                                 </div>
                                                             );
                                                         })
@@ -127,8 +125,8 @@ export default function Projects() {
                                                 </video>
                                             </div>
                                             <div className='links'>
-                                                {project.github ? <a href={project.github} target="_blank"><img className='github-icon' src={require('../img/guthub.png')} /> Github</a> : ""}
-                                                {project.web_link ? <a href={project.web_link} target="_blank"><img className='link-icon' src={require('../img/link.png')} />Visit Website</a> : ""}
+                                                {project.github ? <a href={project.github} target="_blank" rel="noopener noreferrer"><img className='github-icon' alt="github-icon" src={require('../img/guthub.png')} /> Github</a> : ""}
+                                                {project.web_link ? <a href={project.web_link} target="_blank" rel="noopener noreferrer"><img className='link-icon' alt="link-icon" src={require('../img/link.png')} />Visit Website</a> : ""}
                                             </div>
                                             <div className='credit'>
                                                 {project.credit}

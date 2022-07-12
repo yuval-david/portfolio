@@ -1,4 +1,4 @@
-import { toBeRequired } from '@testing-library/jest-dom/dist/matchers';
+// import { toBeRequired } from '@testing-library/jest-dom/dist/matchers';
 import React from 'react';
 import Tools from './Tools';
 
@@ -11,13 +11,13 @@ export default function About() {
                     <div className='title-about'>
                         <h2>About Me</h2>
                         <div className='yuval-img'>
-                            <img src={require('../img/yuval.jpg')} />
+                            <img src={require('../img/yuval.jpg')} alt="yuval" />
                         </div>
                     </div>
 
                     <p>
                         Hello,
-                        My name is Yuval😊
+                        My name is Yuval<span role="img" aria-label='hello'>😊</span>
                         <br />
                         I'm a Full-stack web developer, focuses on frontend development.
 
@@ -31,7 +31,6 @@ export default function About() {
                     </ul>
                 </div>
                 <div className='tools-about'>
-
                     <Tools />
                 </div>
             </div>

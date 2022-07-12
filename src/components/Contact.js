@@ -32,27 +32,27 @@ export default function Contact() {
                         <p>Feel free to contact me!</p>
                         <div className='social-icons'>
                             <div className='icon-div'>
-                                <a href="https://www.linkedin.com/in/yuval-david-52720a186/" target="_blank">
-                                    <img className='black-icon' src={require('../img/icons/linkedin.png')} />
-                                    <img src={require('../img/icons/linkedin-c.png')} />
+                                <a href="https://www.linkedin.com/in/yuval-david-52720a186/" target="_blank" rel="noopener noreferrer">
+                                    <img className='black-icon' src={require('../img/icons/linkedin.png')} alt="linkedin" />
+                                    <img src={require('../img/icons/linkedin-c.png')} alt="linkedin" />
                                 </a>
                             </div>
                             <div className='icon-div'>
-                                <a href="https://github.com/yuval-david" target="_blank">
-                                    <img className='black-icon' src={require('../img/icons/github.png')} />
-                                    <img src={require('../img/icons/github-c.png')} />
+                                <a href="https://github.com/yuval-david" target="_blank" rel="noopener noreferrer">
+                                    <img className='black-icon' src={require('../img/icons/github.png')} alt="github"/>
+                                    <img src={require('../img/icons/github-c.png')} alt="github"/>
                                 </a>
                             </div>
                             <div className='icon-div'>
-                                <a href="mailto:yuvid0224@gmail.com?subject=Mail from Yuval Site" target="_blank">
-                                    <img className='black-icon' src={require('../img/icons/mail.png')} />
-                                    <img src={require('../img/icons/mail-c.png')} />
+                                <a href="mailto:yuvid0224@gmail.com?subject=Mail from Yuval Site" target="_blank" rel="noopener noreferrer">
+                                    <img className='black-icon' src={require('../img/icons/mail.png')} alt="mail" />
+                                    <img src={require('../img/icons/mail-c.png')} alt="mail" role="presentation" />
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className='phone-gif'>
-                        <img src={require('../img/pink-calling.gif')} />
+                        <img src={require('../img/pink-calling.gif')} alt="phone" />
                     </div>
                 </div>
 

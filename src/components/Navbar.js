@@ -1,5 +1,4 @@
 import React from 'react';
-import { ScrollTo } from 'react-scroll-to';
 import { Link } from 'react-router-dom';
 import ScrollIntoView from 'react-scroll-into-view';
 

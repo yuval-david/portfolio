@@ -6,6 +6,7 @@ import Tilt from 'react-tilt'
 export default function Head() {
 
     useEffect(() => {
+
         const togglerHamburger = document.querySelector("#toggle-hamburger");
         const navbarComponent = document.querySelector(".navbar-component");
         const navItems = document.querySelectorAll(".nav-container .scroll-to-element");

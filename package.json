@@ -16,6 +16,7 @@
     "react-scroll-into-view": "^1.12.0",
     "react-scroll-to": "^3.0.0-beta.6",
     "react-tilt": "^0.1.4",
+    "reactstrap": "^9.1.1",
     "swiper": "^8.2.2",
     "vanilla-tilt": "^1.7.2",
     "web-vitals": "^2.1.4"

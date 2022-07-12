@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "73922430d1a66437e732",
-    "url": "/portfolio/static/css/main.de82e09c.chunk.css"
+    "revision": "b95f43ba5be13358acf9",
+    "url": "/portfolio/static/css/main.e4febe9f.chunk.css"
   },
   {
-    "revision": "73922430d1a66437e732",
-    "url": "/portfolio/static/js/main.73922430.chunk.js"
+    "revision": "b95f43ba5be13358acf9",
+    "url": "/portfolio/static/js/main.b95f43ba.chunk.js"
   },
   {
-    "revision": "cfbbcc48d29ad874e737",
-    "url": "/portfolio/static/js/1.cfbbcc48.chunk.js"
+    "revision": "084b5a102f666b01c2c5",
+    "url": "/portfolio/static/js/1.084b5a10.chunk.js"
   },
   {
-    "revision": "d798a6362bad6794128e",
-    "url": "/portfolio/static/css/2.4e881008.chunk.css"
+    "revision": "becc379ba7de6cb701dd",
+    "url": "/portfolio/static/css/2.effb80e7.chunk.css"
   },
   {
-    "revision": "d798a6362bad6794128e",
-    "url": "/portfolio/static/js/2.d798a636.chunk.js"
+    "revision": "becc379ba7de6cb701dd",
+    "url": "/portfolio/static/js/2.becc379b.chunk.js"
   },
   {
-    "revision": "548806b00eeab4bea233",
-    "url": "/portfolio/static/js/runtime~main.548806b0.js"
+    "revision": "ad236288f363a0ace944",
+    "url": "/portfolio/static/js/runtime~main.ad236288.js"
   },
   {
     "revision": "3df66fdf2655f4e59b78ceb0e5efa18b",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/yoga-video.3304ff18.mp4"
   },
   {
-    "revision": "735941f4bf7b792912da2c9f10f31671",
+    "revision": "4bb8343aa606b5dd4bfd43a5f1c567f4",
     "url": "/portfolio/index.html"
   }
 ];

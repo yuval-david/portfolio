@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import Tilt from 'react-tilt'
+import Tilt from 'react-tilt'
 
 export default function Head() {
 
@@ -37,21 +37,23 @@ export default function Head() {
             </label>
 
             <div className="title">
-                <div className="Tilt-inner">
+                <Tilt className="Tilt" options={{ max: 15 }}  >
+                    <div className="Tilt-inner">
 
-                    <h1>Yuval David</h1>
-                    <div className="wrapper">
-                        <div className="typing-demo">
-                            Full-stack Web Developer
+                        <h1>Yuval David</h1>
+                        <div className="wrapper">
+                            <div className="typing-demo">
+                                Full-stack Web Developer
+                            </div>
                         </div>
-                    </div>
-                    <div className="about-text" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                        Welcome to my Portfolio! <br />
-                        Here you can see my last projects, <br />
-                        and a little bit about me.
-                    </div>
+                        <div className="about-text" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+                            Welcome to my Portfolio! <br />
+                            Here you can see my last projects, <br />
+                            and a little bit about me.
+                        </div>
 
-                </div>
+                    </div>
+                </Tilt>
             </div>
 
             <div className="arrow-text">Read More</div>

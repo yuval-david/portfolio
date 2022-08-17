@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d003fac9df54453e0268",
+    "revision": "5a851313d188cbb768f5",
     "url": "/portfolio/static/css/main.b5b772cf.chunk.css"
   },
   {
-    "revision": "d003fac9df54453e0268",
-    "url": "/portfolio/static/js/main.d003fac9.chunk.js"
+    "revision": "5a851313d188cbb768f5",
+    "url": "/portfolio/static/js/main.5a851313.chunk.js"
   },
   {
     "revision": "2d281c672a566deb1a05",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/yoga-video.3304ff18.mp4"
   },
   {
-    "revision": "c46f01aba3de20d85f902180a9841ec8",
+    "revision": "0170a865b810e9bfb96b33549713b052",
     "url": "/portfolio/index.html"
   }
 ];

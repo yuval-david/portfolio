@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "b95f43ba5be13358acf9",
-    "url": "/portfolio/static/css/main.e4febe9f.chunk.css"
+    "revision": "d003fac9df54453e0268",
+    "url": "/portfolio/static/css/main.b5b772cf.chunk.css"
   },
   {
-    "revision": "b95f43ba5be13358acf9",
-    "url": "/portfolio/static/js/main.b95f43ba.chunk.js"
+    "revision": "d003fac9df54453e0268",
+    "url": "/portfolio/static/js/main.d003fac9.chunk.js"
   },
   {
-    "revision": "084b5a102f666b01c2c5",
-    "url": "/portfolio/static/js/1.084b5a10.chunk.js"
+    "revision": "2d281c672a566deb1a05",
+    "url": "/portfolio/static/js/1.2d281c67.chunk.js"
   },
   {
-    "revision": "becc379ba7de6cb701dd",
-    "url": "/portfolio/static/css/2.effb80e7.chunk.css"
+    "revision": "ae8c46e0b2a97cec2bc7",
+    "url": "/portfolio/static/css/2.9f844e98.chunk.css"
   },
   {
-    "revision": "becc379ba7de6cb701dd",
-    "url": "/portfolio/static/js/2.becc379b.chunk.js"
+    "revision": "ae8c46e0b2a97cec2bc7",
+    "url": "/portfolio/static/js/2.ae8c46e0.chunk.js"
   },
   {
-    "revision": "ad236288f363a0ace944",
-    "url": "/portfolio/static/js/runtime~main.ad236288.js"
+    "revision": "785507b4b649190e848b",
+    "url": "/portfolio/static/js/runtime~main.785507b4.js"
   },
   {
     "revision": "3df66fdf2655f4e59b78ceb0e5efa18b",
@@ -78,6 +78,10 @@ self.__precacheManifest = [
   {
     "revision": "da07e2241f00fb9f29081b1fe0f5a3a3",
     "url": "/portfolio/static/media/jquery-logo.da07e224.png"
+  },
+  {
+    "revision": "d2b1e19091a3530dfb8bec06b5a926dc",
+    "url": "/portfolio/static/media/material-ui.d2b1e190.png"
   },
   {
     "revision": "af0dad0aff317476578e26326f7e565a",
@@ -180,7 +184,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/yoga-video.3304ff18.mp4"
   },
   {
-    "revision": "4bb8343aa606b5dd4bfd43a5f1c567f4",
+    "revision": "c46f01aba3de20d85f902180a9841ec8",
     "url": "/portfolio/index.html"
   }
 ];

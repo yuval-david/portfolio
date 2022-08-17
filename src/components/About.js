@@ -17,7 +17,7 @@ export default function About() {
 
                     <p>
                         Hello,
-                        My name is Yuval<span role="img" aria-label='hello'>😊</span>
+                        my name is Yuval<span role="img" aria-label='hello'>😊</span>
                         <br />
                         I'm a Full-stack web developer (frontend oriented).
                         <br />

@@ -19,8 +19,8 @@ export default function About() {
                         Hello,
                         My name is Yuval<span role="img" aria-label='hello'>😊</span>
                         <br />
-                        I'm a Full-stack web developer, focuses on frontend development.
-
+                        I'm a Full-stack web developer (frontend oriented).
+                        <br />
                         I have a great passion for the field and a desire to progress and develop.
                         <br />
 
